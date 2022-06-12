@@ -6,7 +6,12 @@
 
   <groupId>com.teyyub</groupId>
   <artifactId>demo-microservices</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+
+  <modules>
+    <module>customer</module>
+  </modules>
 
   <name>demo-microservices</name>
   <url>https://www.example.com</url>
