@@ -1,4 +1,4 @@
-package com.teyyub.clients.fraud;
+package com.teyyub.models.fraud;
 
 public record FraudCheckResponse(
         boolean response

@@ -1,5 +1,6 @@
 package com.teyyub.clients.fraud;
 
+import com.teyyub.models.fraud.FraudCheckResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
