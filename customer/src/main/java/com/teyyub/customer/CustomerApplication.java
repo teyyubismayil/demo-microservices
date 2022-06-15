@@ -9,7 +9,12 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
         basePackages = "com.teyyub.clients"
 )
 @EnableEurekaClient
-@SpringBootApplication
+@SpringBootApplication(
+        scanBasePackages = {
+                "com.teyyub.customer",
+                "com.teyyub.amqp"
+        }
+)
 public class CustomerApplication {
 
     public static void main(String[] args) {
