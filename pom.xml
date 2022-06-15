@@ -17,6 +17,7 @@
     <module>models</module>
     <module>notification</module>
     <module>gateway</module>
+    <module>amqp</module>
   </modules>
 
   <name>demo-microservices</name>
