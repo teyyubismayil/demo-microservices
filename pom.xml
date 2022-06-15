@@ -15,7 +15,8 @@
     <module>eureka-server</module>
     <module>clients</module>
     <module>models</module>
-      <module>notification</module>
+    <module>notification</module>
+    <module>gateway</module>
   </modules>
 
   <name>demo-microservices</name>
